@@ -9,5 +9,5 @@
 #===============================================================================
 
 cd "$SS_WORKDIR"
-exec python server.py -s "$SS_SERVER" -p "$SS_PORT" -m "$SS_METHOD" -k "$SS_PASSWORD" -O "$SSR_PROTOCOL" -o "$SSR_CRYPTO" "$@"
+exec python server.py -s "$SS_HOST" -p "$SS_PORT" -m "$SS_METHOD" -k "$SS_PASSWORD" -O "$SSR_PROTOCOL" -o "$SSR_OBFS" "$@"
 
